@@ -1,0 +1,8 @@
+What are self-closing tags? Write a brief note on meta tags?
+
+Self-closing tags, also known as empty tags or void elements, are HTML tags that do not require a closing tag because they do not 
+contain any content or children. They represent elements that are self-contained and do not have any textual or structural content 
+associated with them. Instead, they may carry attributes to provide additional information or functionality.
+
+Meta tags can be used to control how search engines index and display a webpage, set the language of the document, specify the 
+character encoding, add viewport settings for responsive design, and include other metadata relevant to the webpage.

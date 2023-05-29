@@ -1,0 +1,30 @@
+Write a short note on tags, elements, and attributes along with relevant examples.
+
+Tags:
+In web development, tags are used to define the structure and appearance of content in HTML (Hypertext Markup Language) documents. 
+Tags are enclosed in angle brackets ("< >") and provide instructions to web browsers on how to display and interpret the content. 
+They are fundamental building blocks of HTML documents.
+
+Example:
+<p>This is a paragraph tag.</p>
+
+In the above example, the `<p>` tag represents a paragraph element. The text "This is a paragraph tag." is the content of the paragraph.
+
+Elements:
+Elements are made up of tags and the content they enclose. They define the structure and semantics of the document. 
+An HTML element consists of an opening tag, content, and a closing tag. Some elements may not have any content and are self-closing.
+
+Example:
+<h1>Welcome to my website!</h1>
+
+In this example, the `<h1>` tag represents a heading element. The text "Welcome to my website!" is the content of the heading.
+
+Attributes:
+Attributes provide additional information about HTML elements. They are included within the opening tag and help define the behavior,
+ appearance, or other characteristics of the element. Attributes consist of a name and a value, separated by an equals sign ("=").
+
+Example:
+<img src="image.jpg" alt="A beautiful sunset">
+
+In this example, the `<img>` tag represents an image element. The `src` attribute specifies the image source file ("image.jpg"), 
+and the `alt` attribute provides alternative text that describes the image ("A beautiful sunset").

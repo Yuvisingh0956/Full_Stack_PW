@@ -1,0 +1,12 @@
+Explain in brief about the nesting operators in emmet?
+
+In Emmet, nesting operators are symbols or characters used to indicate the relationship and hierarchy between HTML or CSS elements. 
+They allow you to quickly and intuitively express nested structures without having to type out each element individually. 
+
+Here are some of the commonly used nesting operators in Emmet:
+
+1. Child Selector (`>`)
+2. Sibling Selector (`+`)
+3. Climb-up Selector (`^`) 
+4. Multiplication Operator (`*`)
+5. Grouping Operator (`()`)

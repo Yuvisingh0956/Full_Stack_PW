@@ -1,0 +1,14 @@
+What is emmet? List some of the advantages emmet offers?
+
+Emmet is a powerful toolkit for web developers that enhances the speed and efficiency of writing HTML and CSS code. 
+It provides a shorthand syntax and shortcuts that can significantly speed up the coding process. 
+
+Here are some of the advantages offered by Emmet:
+
+1. Abbreviations and Expansion
+2. Dynamic Content Generation
+3. Nesting and Hierarchy
+4. CSS Property Completion
+5. Customization and Configurability
+6. Cross-Editor Support
+7. Community and Extensions
