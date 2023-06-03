@@ -1,0 +1,23 @@
+List any 3 ways which help us in improving the accessibility of HTML
+
+
+Improving the accessibility of HTML involves making web content more inclusive and usable for individuals with disabilities. 
+
+Here are three ways to enhance HTML accessibility:
+
+1. Proper Semantic Structure: Using proper HTML semantic elements is crucial for accessibility. 
+Semantic elements such as `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, and `<footer>` provide a clear and
+meaningful structure to the content. They help screen readers and assistive technologies understand the purpose and
+relationships between different parts of a web page. By structuring content semantically, you make it easier for 
+individuals with disabilities to navigate and comprehend the information.
+
+2. Alternative Text for Images: Providing alternative text (alt text) for images is essential for users who cannot see the images. 
+Alt text describes the content and purpose of an image, allowing screen readers to convey the information to visually impaired users.
+By using descriptive and concise alt text, you ensure that individuals who rely on screen readers can understand the context and 
+meaning conveyed by the images on your website.
+
+3. Proper Form Labeling: When creating HTML forms, it's important to use proper labeling techniques. 
+Labels provide descriptive text for form elements, allowing users to understand the purpose and function of each field. 
+Associating labels with their corresponding form elements using the `for` attribute or by wrapping the input element 
+with the `<label>` element ensures that individuals using assistive technologies can easily identify and complete form fields. 
+This is particularly important for users who rely on screen readers or have mobility impairments.
