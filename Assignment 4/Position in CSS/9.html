@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q9</title>
+    <style>
+        .scrolling{
+            position: relative;
+            top: 10px;
+            display: inline-block;
+        }
+        span{
+            background-color: #ff6666;
+            padding: 10px 25px;
+        }
+        .menu{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            max-height: 150px;
+            overflow-y: scroll;
+            width: 200px;
+        }
+        .scrolling:hover .menu{
+            display: block;
+        }
+        .option{
+            padding: 10px;
+            cursor: pointer;
+        }
+        .menu:hover{
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="scrolling">
+        <span>Hover To View Options</span>
+        <div class="menu">
+            <div class="option">Option 1</div>
+            <div class="option">Option 2</div>
+            <div class="option">Option 3</div>
+            <div class="option">Option 4</div>
+            <div class="option">Option 5</div>
+            <div class="option">Option 6</div>
+            <div class="option">Option 7</div>
+            <div class="option">Option 8</div>
+            <div class="option">Option 9</div>
+            <div class="option">Option 10</div>
+        </div>
+    </div>
+</body>
+</html>
