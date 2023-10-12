@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q2</title>
+    <style>
+        .grid_container {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 10px;
+            gap: 20px;
+            align-items: center;
+        }
+        nav{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;            
+        }
+        nav img{
+            align-items: start;
+            height: 50px;
+            width: 50px;
+            margin-right: 400px;
+        }
+        nav a{
+            text-decoration: none;
+            padding-right: 50px;
+            color: #000;
+        }
+        nav a:hover{
+            color: red;
+            text-decoration: solid;
+        }
+        nav button{
+            margin-left: 60%;
+            padding: 10px 0px;
+            border: 0;
+            border-radius: 5px;
+            background-color: #0fdb6b;
+            color: #000;
+            font-weight: bold;
+        }
+        .content {
+            padding: 0 50px;
+        }
+
+        .content h1,
+        p {
+            text-align: justify;
+            margin: 30px 0;
+        }
+        .image {
+            background-color: yellow;
+            height: 100%;
+            max-height: 93vh;
+        }
+        .image > img {
+            grid-area: image;
+            height: 93vh;
+            width: 70%;
+        }
+
+        .button {
+            display: flex;
+            border: 1px solid black;
+            margin-top: 40px;
+            width: 100px;
+            height: 25px;
+            background-color: black;
+            color: aliceblue;
+            padding-top: 5px;
+            padding-left: 40px;
+            padding-right: 30px;
+            font-size: large;
+        }
+    </style>
+  </head>
+  <body>
+    <nav>
+        <img
+          src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png"
+          alt="Logo"
+        />
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <button>Login</button>
+      </nav>
+    <div class="grid_container">
+      <div class="content">
+        <h1>Healthy Food</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum facilis
+          impedit at ratione saepe voluptatum recusandae quod praesentium fugit
+          neque excepturi ipsa hic quidem, est blanditiis repellat minus!
+          Sapiente dignissimos nostrum temporibus corrupti ullam rem pariatur
+          hic enim, facere officia, velit dolorem. Quasi, corporis quam alias
+          distinctio minima nulla similique?
+        </p>
+        <div class="button">Read more</div>
+      </div>
+
+      <div class="image">
+        <img
+          src="https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&w=0&k=20&c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY="
+          alt="Restaurant Logo"
+        />
+      </div>
+    </div>
+  </body>
+</html>
